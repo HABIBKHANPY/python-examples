@@ -1,7 +1,6 @@
 import streamlit as st
 st.title("Welcome Bano Qabil")
-st.title("~~~~PYTHON~~~~~")
-import random
+st.title("fINAL PROJECT CIT+PYTHON")
 while True:
     question=input("Ask the magic 8 ball a question: (press enter to quit) ")
     answer=random.randint(1,20)
