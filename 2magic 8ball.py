@@ -1,11 +1,6 @@
 import streamlit as st
 import random
 
-# CSS to inject contained in a string
-def local_css(file_name):
-    with open(file_name) as f:
-        st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
-
 # Magic 8 Ball answers
 responses = [
     "It is certain.",
@@ -31,19 +26,33 @@ responses = [
 ]
 
 def main():
-    local_css("style.css")  # Assuming you have a CSS file named 'style.css'
+    # Custom CSS to inject into the webpage
+    st.markdown("""
+        <style>
+        .stApp {
+            background-image: linear-gradient(to right, #6DD5FA, #FF758C);
+            color: #ffffff;
+        }
+        .stTextInput>div>div>input {
+            color: #4F4F4F;
+        }
+        .stButton>button {
+            color: #4F4F4F;
+            border-radius: 20px;
+            border-color: #FF758C;
+            background-color: #ffffff;
+        }
+        </style>
+        """, unsafe_allow_html=True)
 
     st.title("Magic 8 Ball")
 
-    # Create columns for better layout
-    col1, col2, col3 = st.beta_columns([1,2,1])
+    # Text input for the question
+    question = st.text_input("Ask a question:")
 
-    with col2:
-        question = st.text_input("Ask a question:", key="question")
-
-        if st.button("Shake the Magic 8 Ball"):
-            answer = random.choice(responses)
-            st.markdown(f"<h1 style='text-align: center; color: blue;'>🔮 {answer}</h1>", unsafe_allow_html=True)
+    if st.button("Shake the Magic 8 Ball"):
+        answer = random.choice(responses)
+        st.markdown(f"<h2 style='text-align: center;'>🔮 {answer}</h2>", unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
