@@ -1,4 +1,4 @@
- import streamlit as st
+import streamlit as st
 import random
 
 # Magic 8 Ball answers
@@ -30,7 +30,7 @@ def main():
     st.markdown("""
         <style>
         .stApp {
-            background-image: url('https://your_image_url_here.jpg');
+            background-image: url('https://your-background-image-url.jpg');
             background-size: cover;
             color: #ffffff;
         }
