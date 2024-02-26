@@ -1,5 +1,7 @@
 import streamlit as st
 import random
+st.balloons()
+st.snow()
 
 # Magic 8 Ball answers
 responses = [
