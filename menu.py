@@ -1,3 +1,6 @@
+import streamlit as st
+import random
+
 # Get user's name
 name = st.text_input("Enter your name:")
 
