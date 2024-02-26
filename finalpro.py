@@ -35,8 +35,27 @@ def main():
             color: #ffffff;
         }
         .stTextInput>div>div>input {
-            color: #4F4F4F;
-        }
+    color: #4F4F4F;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 8px;
+    margin: 5px 0;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+
+    ::placeholder {
+        color: #888;
+        opacity: 1;
+    }
+
+    :focus {
+        border-color: #4F4F4F;
+        outline: none;
+    }
+}
+
         .stButton>button {
     color: #1E90FF; /* Change text color to DodgerBlue */
     border-radius: 10px; /* Make corners less rounded */
