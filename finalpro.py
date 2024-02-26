@@ -41,7 +41,7 @@ def main():
     background-color: #333333;
     }
         .stButton>button {
-    color: #1E90FF; /* Change text color to DodgerBlue */
+    color: #404040; /* Change text color to DodgerBlue */
     border-radius: 10px; /* Make corners less rounded */
     border-color: #32CD32; /* Change border color to LimeGreen */
     background-color: #FFD700; /* Change background color to Gold */
