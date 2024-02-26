@@ -49,6 +49,11 @@ def main():
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
     transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
         }
+        
+.stButton>button:hover {
+    background-color: #FF69B4; /* Change background color on hover to HotPink */
+    color: #FFFFFF; /* Change text color on hover to white */
+}
         </style>
         """, unsafe_allow_html=True)
 
