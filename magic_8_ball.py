@@ -56,7 +56,7 @@ def magic_8_ball_game():
 # Define About Us function
 def about_us():
     st.title("About Us")
-    name = "Your Name or Company Name"  # Define the name or modify as needed
+    name = "Bano Qabli 2.0 CIT+Python "  # Define the name or modify as needed
     st.write(f"This address book application was created by {name}.")
 
 # Define Contact function
