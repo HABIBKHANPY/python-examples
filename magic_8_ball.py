@@ -60,7 +60,7 @@ def about_us():
 # Define Contact function
 def contact():
     st.title("Contact")
-    st.write("For support, please email support@example.com.")
+    st.write("For support, please email hk898243@gmail.com.")
 
 # Custom CSS
 def load_custom_css():
