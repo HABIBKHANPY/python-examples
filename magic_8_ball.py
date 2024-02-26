@@ -21,6 +21,13 @@ def main():
 def magic_8_ball_game():
     st.title("BANO QABIL 2.0 PROJECT")
     st.title("MAGIC 8 BALL")
+    st.markdown("""
+        <style>
+        .stApp {
+            background-image: url('https://img.hotimg.com/eight-ball.jpeg');
+            background-size: cover;
+            color: #ffffff;
+        }
 
     # Magic 8 Ball answers
     responses = [
