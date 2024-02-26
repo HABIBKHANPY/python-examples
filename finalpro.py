@@ -35,8 +35,8 @@ def main():
             color: #ffffff;
         }
         .stTextInput>div>div>input {
-    color: #4F4F4F;
-    background-color: #e0e0e0;
+    color: #e0e0e0;
+    background-color: #333333;
     }
         .stButton>button {
     color: #1E90FF; /* Change text color to DodgerBlue */
