@@ -54,13 +54,17 @@ def magic_8_ball_game():
 # Define About Us function
 def about_us():
     st.title("About Us")
-    name = "Bano Qabli 2.0 CIT+Python"  # Define the name or modify as needed
+    name = "MUHAMMAD HABIB KHAN PROJECT GROUP LEADER AND GROUP MEMBER HAMMAD RAZA & MUZAFFAR KHAN"
+    st.write("Magic 8 Ball Game (BANO QABIL 2.0 PROJECT)
+This section of the web application is an interactive Magic 8 Ball game. The user can ask a question, and the Magic 8 Ball provides a random response from a predefined list. It's a fun and engaging way to simulate the classic toy. The game is designed with user-friendly elements and appealing visuals, enhancing the interactivity and enjoyment of the experience.")
     st.write(f"This address book application was created by {name}.")
 
 # Define Contact function
 def contact():
     st.title("Contact")
-    st.write("For support, please email hk898243@gmail.com.")
+    st.write("For support, questions, or feedback, please reach out to us.")
+    st.write("📧 Email: hk898243@gmail.com")
+    st.write("📞 Contact Number: 03131016682")
 
 # Custom CSS
 def load_custom_css():
