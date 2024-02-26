@@ -42,7 +42,7 @@ def main():
     border-radius: 10px; /* Make corners less rounded */
     border-color: #32CD32; /* Change border color to LimeGreen */
     background-color: #FFD700; /* Change background color to Gold */
-    font-size: 16px; /* Increase font size */
+    font-size: 20px; /* Increase font size */
     padding: 10px 20px; /* Add more padding for a larger button */
     border-width: 2px; /* Make the border thicker */
     border-style: solid; /* Ensure the border is solid */
