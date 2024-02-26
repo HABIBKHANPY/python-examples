@@ -49,13 +49,6 @@ def main():
         color: #888;
         opacity: 1;
     }
-
-    :focus {
-        border-color: #4F4F4F;
-        outline: none;
-    }
-}
-
         .stButton>button {
     color: #1E90FF; /* Change text color to DodgerBlue */
     border-radius: 10px; /* Make corners less rounded */
