@@ -55,7 +55,7 @@ def magic_8_ball_game():
 def about_us():
     st.title("About Us")
     name = "MUHAMMAD HABIB KHAN PROJECT GROUP LEADER AND GROUP MEMBER HAMMAD RAZA & MUZAFFAR KHAN"
-    st.write("magic 8 ball final project bano qbil 2.0 This section of the web application is an interactive Magic 8 Ball game. The user can ask a question, and the Magic 8 Ball provides a random response from a predefined list. It's a fun and engaging way to simulate the classic toy. The game is designed with user-friendly elements and appealing visuals, enhancing the interactivity and enjoyment of the experience.")
+    st.write("magic 8 ball final project bano qbil 2.0 This section of the web application is an interactive Magic 8 Ball game. The user can ask a question, and the Magic 8 Ball.")
     st.write(f"This application was created by {name}.")
 
 
