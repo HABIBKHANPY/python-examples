@@ -30,7 +30,7 @@ def main():
     st.markdown("""
         <style>
         .stApp {
-            background-image: url('https://img.hotimg.com/magic_8_ball-wallpaper-1920x1080.jpeg');
+            background-image: url('https://img.hotimg.com/eight-ball.jpeg');
             background-size: cover;
             color: #ffffff;
         }
