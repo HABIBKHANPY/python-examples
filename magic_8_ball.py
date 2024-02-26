@@ -46,8 +46,6 @@ def magic_8_ball_game():
     "Very doubtful."
 ]
 
-    ]
-
     question = st.text_input("Ask a question:")
     if st.button("Shake the Magic 8 Ball"):
         answer = random.choice(responses)
