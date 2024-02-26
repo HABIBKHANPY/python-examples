@@ -46,7 +46,8 @@ def main():
         </style>
         """, unsafe_allow_html=True)
 
-    st.title("Magic 8 Ball")
+    st.title("BANO QABIL PROJECT")
+    st.title("MAGIC 8 BALL")
 
     # Text input for the question
     question = st.text_input("Ask a question:")
