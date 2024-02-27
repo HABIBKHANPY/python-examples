@@ -13,7 +13,7 @@ def main():
     if selected_page == "MAGIC 8 BALL GAME":
         magic_8_ball_game()
     elif selected_page == "ABOUT US":
-        about_us()
+        about_us(efdfsfdfsdf)
     elif selected_page == "CONTACT":
         contact()
 
