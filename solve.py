@@ -40,6 +40,11 @@ def about_us():
     st.title("About Us")
     name = "MUHAMMAD HABIB KHAN PROJECT GROUP LEADER AND GROUP MEMBER HAMMAD RAZA & MUZAFFAR KHAN"
     st.write(f"This application was created by {name}.")
+     st.markdown("""
+        Bano Qabil 2.0 is a project led by Muhammad Habib Khan and includes group members Hammad Raza and Muzaffar Khan. 
+        The purpose of this project is to showcase the magic of the digital world through interactive applications. 
+        Feel free to explore and enjoy the Magic 8 Ball game and other features of Bano Qabil 2.0.
+    """)
 
 # Define Contact function
 def contact():
