@@ -13,7 +13,7 @@ def main():
     if selected_page == "MAGIC 8 BALL GAME":
         magic_8_ball_game()
     elif selected_page == "ABOUT US":
-        about_us(efdfsfdfsdf)
+        about_us()
     elif selected_page == "CONTACT":
         contact()
 
@@ -55,7 +55,6 @@ def magic_8_ball_game():
 def about_us():
     st.title("About Us")
     name = "MUHAMMAD HABIB KHAN PROJECT GROUP LEADER AND GROUP MEMBER HAMMAD RAZA & MUZAFFAR KHAN"
-    st.write("magic 8 ball final project bano qbil 2.0 This section of the web application is an interactive Magic 8 Ball game. The user can ask a question, and the Magic 8 Ball.")
     st.write(f"This application was created by {name}.")
 
 
