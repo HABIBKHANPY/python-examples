@@ -19,7 +19,7 @@ def main():
 
 # Define Magic 8 Ball game function
 def magic_8_ball_game():
-    st.title("BANO QABIL 2.0 PROJECT")
+    st.title("BANO QABIL 2.0 FINAL PROJECT")
     st.title("MAGIC 8 BALL")
 
     # Magic 8 Ball answers
