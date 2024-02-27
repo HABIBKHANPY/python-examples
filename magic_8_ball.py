@@ -70,11 +70,6 @@ def load_custom_css():
     st.markdown("""
         <style>
         /* Your CSS styles */
-        .stApp {
-            background-image: url('https://img.hotimg.com/eight-ball.jpeg');
-            background-size: cover;
-            color: #ffffff;
-        }
         </style>
         """, unsafe_allow_html=True)
 
