@@ -46,3 +46,8 @@ while True:
         print("It is decidedly so.")
     elif answer==20:
         print("Without a doubt.")
+            .stApp {
+            background-image: url('https://img.hotimg.com/eight-ball.jpeg');
+            background-size: cover;
+            color: #ffffff;
+        }
