@@ -12,7 +12,7 @@ def main():
 
     if selected_page == "MAGIC 8 BALL GAME":
         magic_8_ball_game()
-    elif selected_page == "About Us":  # Make it consistent with the sidebar option
+    elif selected_page == "About Us":
         about_us()
     elif selected_page == "Contact":
         contact()
@@ -38,9 +38,7 @@ def magic_8_ball_game():
 # Define About Us function
 def about_us():
     st.title("About Us")
-    name = "MUHAMMAD HABIB KHAN PROJECT GROUP LEADER AND GROUP MEMBER HAMMAD RAZA & MUZAFFAR KHAN"
-    st.write(f"This application was created by {name}.")
-     st.markdown("""
+    st.markdown("""
         Bano Qabil 2.0 is a project led by Muhammad Habib Khan and includes group members Hammad Raza and Muzaffar Khan. 
         The purpose of this project is to showcase the magic of the digital world through interactive applications. 
         Feel free to explore and enjoy the Magic 8 Ball game and other features of Bano Qabil 2.0.
@@ -57,13 +55,12 @@ def contact():
 def load_custom_css():
     st.markdown("""
         <style>
-        /* Your CSS styles */
-           .stApp {
-            background-image: url('https://img.hotimg.com/eight-ball.jpeg');
-            background-size: cover;
-            color: #ffffff;
-            padding: 20px;  /* Add padding for better appearance */
-        }
+            .stApp {
+                background-image: url('https://img.hotimg.com/eight-ball.jpeg');
+                background-size: cover;
+                color: #ffffff;
+                padding: 20px;  /* Add padding for better appearance */
+            }
         </style>
         """, unsafe_allow_html=True)
 
