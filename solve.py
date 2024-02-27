@@ -85,9 +85,9 @@ The script is a good example of how Python and Streamlit can be used to create i
 def contact():
     st.title("Contact")
     st.write("For support, questions, or feedback, please reach out to us.")
-    st.write("📧 Email: hk898243@gmail.com")
     st.write("📞 Contact Number: 03131016682")
-
+    st.write("📧 Email: hk898243@gmail.com")
+    
 # Custom CSS
 def load_custom_css():
     st.markdown("""
