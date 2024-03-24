@@ -13,10 +13,7 @@ df  #magic comments
 # visualize
 st.sidebar.line_chart(df)
 st.sidebar.bar_chart(df)
-st.area_chart(df)import streamlit as st
-import pandas as pd
-st.title("Welcome Bano Qabil")
-
+st.area_chart(df)
 #creating dataset
 
 df=pd.DataFrame({'first':[1,2,3,4,5,],'second':[6,7,8,9,10]})
